@@ -358,7 +358,7 @@ if __name__ == "__main__":
     # 模型构建
     model = AllModel(feature_dim=4096,
                  nbits=args.nbit,
-                 num_classes=n_class,                    #11111111111111#65
+                 num_classes=n_class,                    
                  device=device).to(device)
     print(args.nbit)
     #model = nn.DataParallel(model)
